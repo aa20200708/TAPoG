@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/textSize"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/textSize"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/leMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/textSize"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/lPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/textSize"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:ignore="SmallSp" />
+</LinearLayout>
